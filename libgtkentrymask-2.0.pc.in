@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+includedir=@includedir@
+libdir=@libdir@
+
+Name: libgtkentrymask
+Description: Library which provides a mask to entry widget (GTK+ 2.X)
+Version: @VERSION@
+Requires: gtk+-2.0
+Libs: -L${libdir} -lgtkentrymask
+Cflags: -I${includedir}

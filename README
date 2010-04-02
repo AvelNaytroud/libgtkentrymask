@@ -1,0 +1,16 @@
+libgtkentrymask
+---------------
+
+GtkEntryMask is base upon GtkEntry and provides mask filtering on input.
+
+The goal of this version would be inclusion in GTK+ mainline with extremely
+simple API and code (to do). The API will be not compatible with the original
+version (if needing use libgtkxentrymask).
+
+Devel version.
+
+For testing purpose, the package contains :
+ * libgtkentrymask
+ * test-gtkentrymask
+ * libgtkentrymask-2.0.pc
+so it's easy to use this class in any GTK+ 2.0 application.
